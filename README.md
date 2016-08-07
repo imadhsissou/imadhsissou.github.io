@@ -16,11 +16,6 @@ based on shiori and midnight
 #### Contribution
 Pull Requests always welcome.
 
-## Screens
-
-![](screenshots/home.png)
-![](screenshots/post.png)
-
 ## Installation
 
 - [Fork this repository][fork]
