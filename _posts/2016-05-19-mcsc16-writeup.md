@@ -34,7 +34,7 @@ imad@user:~$
 
 Ops! nothing here ! we need to investigate more !
 
-The first thing to do, is to find out what type of operating system we are dealing with, we're going to do this using <font face="verdana" color="blue">strings</font> and <font face="verdana" color="blue">grep</font>, let's try with windows :
+The first thing to do, is to find out what type of operating system we are dealing with, we're going to do this using <b>strings</b> and <b>grep</b>, let's try with windows :
 
 ```sh
 imad@user:~$ strings my\ memory\ was | grep "windows"
@@ -63,7 +63,7 @@ Bad news, we can't use [Volatility Framework](https://github.com/volatilityfound
 
 > [Download](https://github.com/gentilkiwi/mimikatz/releases) and run Mimikatz.
 
-As we discovered earlier, we got a memory dump of a single process <font face="verdana" color="blue">lsass.exe</font>, this is also known as <b>minidump</b>, so by running these commands in Mimikatz, the flag will show up :
+As we discovered earlier, we got a memory dump of a single process <b>lsass.exe</b>, this is also known as <b>minidump</b>, so by running these commands in Mimikatz, the flag will show up :
 
 ```sh
 mimikatz# sekurlsa::minidump "my memory was"
