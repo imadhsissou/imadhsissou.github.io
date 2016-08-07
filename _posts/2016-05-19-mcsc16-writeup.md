@@ -10,10 +10,8 @@ tags: [Security]
 
 <p><b>Description</b>:<br>
 
-neeeeed help<br>
-i forgot my password , if u can help me<br>
-i have the memory dump<br>
-try to analyze this file and find the password :<br>
+neeeeed help, i forgot my password , if u can help me<br>
+i have the memory dump, try to analyze this file and find the password :<br>
 my username is : challenge2016<br>
 the dump is in the folder foreinsic 1 : <a href="https://drive.google.com/file/d/0B96vQk2gH7pLd196RHJhQUFzU0k/view?usp=sharing">my memory was</a>
 </p>
