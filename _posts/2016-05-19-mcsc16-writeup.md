@@ -32,9 +32,9 @@ imad@user:~$ strings my\ memory\ was | grep "challenge2016"
 imad@user:~$ 
 ```
 
-Ops! we found nothing ! we need to investigate more !
+Ops! nothing here ! we need to investigate more !
 
-The first thing to do, is to find out what type of operating system we are dealing with, we're going to do this using `strings` and `grep`, let's try with windows :
+The first thing to do, is to find out what type of operating system we are dealing with, we're going to do this using <code>strings</code> and <code>grep</code>, let's try with windows :
 
 ```sh
 imad@user:~$ strings my\ memory\ was | grep "windows"
@@ -51,7 +51,7 @@ Platform is windows 95/98
 Platform is windows NT prior to Windows 2000
 ```
 
-We got some interesting output, the operating system seems to be an old windows version, also the crash dump is for the `lsass` process.
+We got some interesting output, the operating system seems to be an old windows version, also the crash dump is for the <code>lsass</code> process.
 
 ```sh
 c:/windows/system32/lsass.exe
@@ -63,7 +63,7 @@ Bad news, we can't use [Volatility Framework](https://github.com/volatilityfound
 
 > [Download](https://github.com/gentilkiwi/mimikatz/releases) and run Mimikatz.
 
-As we discovered earlier, we got a memory dump of a single process `lsass.exe`, this is also known as _minidump_, so by running these commands in Mimikatz, the flag will show up :
+As we discovered earlier, we got a memory dump of a single process <code>lsass.exe</code>, this is also known as <b>minidump</b>, so by running these commands in Mimikatz, the flag will show up :
 
 ```sh
 mimikatz# sekurlsa::minidump "my memory was"
