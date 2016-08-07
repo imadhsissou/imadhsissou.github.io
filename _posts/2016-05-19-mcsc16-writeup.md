@@ -34,7 +34,7 @@ imad@user:~$
 
 Ops! nothing here ! we need to investigate more !
 
-The first thing to do, is to find out what type of operating system we are dealing with, we're going to do this using <code>strings</code> and <code>grep</code>, let's try with windows :
+The first thing to do, is to find out what type of operating system we are dealing with, we're going to do this using <samp>strings</samp> and <samp>grep</samp>, let's try with windows :
 
 ```sh
 imad@user:~$ strings my\ memory\ was | grep "windows"
@@ -51,7 +51,7 @@ Platform is windows 95/98
 Platform is windows NT prior to Windows 2000
 ```
 
-We got some interesting output, the operating system seems to be an old windows version, also the crash dump is for the <code>lsass</code> process.
+We got some interesting output, the operating system seems to be an old windows version, also the crash dump is for the <samp>lsass</samp> process.
 
 ```sh
 c:/windows/system32/lsass.exe
@@ -73,7 +73,7 @@ mimikatz# sekurlsa::logonPasswords
 
 Scroll a little bit down and you'll see the flag ! Huuuurray !!
 
-![alt text](https://github.com/7BISSO/ctfs-write-ups/blob/master/MCSC-CTF-2016/Forensic1/flag.PNG)
+![Imgur](http://i.imgur.com/0bMJCSD.png)
 
 I hope you enjoyed the write-up ! Your feedback is highly appreciated.
 
