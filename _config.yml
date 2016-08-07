@@ -9,6 +9,7 @@ paginate_path: /blog/page:num #makes pagination working
 git: "https://github.com/7bisso"  #your github url here.
 stackoverflow: "https://www.linkedin.com/in/imad-hsissou-579394127" #Add your stackoverflow url here.
 twitter: "https://twitter.com/hsissouimad"  #Add your twitter url here.
+facebook: "https://www.facebook.com/imad.hsissou"
 
 #disqus comment
 disqus:
