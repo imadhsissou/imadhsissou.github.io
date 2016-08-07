@@ -3,18 +3,20 @@ title: "MCSC 2016 Writeup"
 tags: [Security]
 ---
 
-# MCSC CTF 2016: FIND MY PASSWORD
+## Forensic Challenge : FIND MY PASSWORD
 
-Category: Forensic
-Points: 80
-Description:
+<b>Category</b>: Forensic
+<b>Points</b>: 80
+
+<p><b>Description</b>:
 
 neeeeed help
 i forgot my password , if u can help me
 i have the memory dump
 try to analyze this file and find the password :
 my username is : challenge2016
-the dump is in the folder foreinsic 1 : [my memory was](https://drive.google.com/file/d/0B96vQk2gH7pLd196RHJhQUFzU0k/view?usp=sharing)
+the dump is in the folder foreinsic 1 : <a href="https://drive.google.com/file/d/0B96vQk2gH7pLd196RHJhQUFzU0k/view?usp=sharing">my memory was</a>
+</p>
 
 ## Write-up
 
