@@ -1,5 +1,5 @@
 baseurl: "" # The subpath of your site. Use "" if you're hosting a blog at the root level.
-url: "imadhsissou.me" # the base hostname & protocol for your site.
+url: "https://www.imadhsissou.me" # the base hostname & protocol for your site.
 title: "Imad Hsissou"
 
 paginate: 10 #articles per page
