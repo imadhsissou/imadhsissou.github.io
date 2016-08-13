@@ -73,7 +73,7 @@ mimikatz# sekurlsa::logonPasswords
 
 Scroll a little bit down and you'll see the flag ! Huuuurray !!
 
-![Imgur](http://i.imgur.com/0bMJCSD.png)
+![Imgur](https://i.imgur.com/0bMJCSD.png)
 
 I hope you enjoyed the write-up ! Your feedback is highly appreciated.
 
