@@ -12,7 +12,7 @@ body {
 }
 
 ::-webkit-scrollbar {
-    width: 1 !important // scrollbar 1:off 0: on
+    width: 1 !important; // scrollbar 1:off 0: on
 }
 
 h1, h2, h3, h4, h5, h6 {
