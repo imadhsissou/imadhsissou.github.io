@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+
+ul.rig {
+    list-style: none;
+    font-size: 0px;
+    margin-left: -2.5%; /* should match li left margin */
+}
+ul.rig li {
+    display: inline-block;
+    padding: 10px;
+    margin: 0 0 2.5% 2.5%;
+    background: #384752;
+    font-size: 16px;
+    font-size: 1rem;
+    vertical-align: top;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+ul.rig li img {
+    max-width: 100%;
+    height: auto;
+    margin: 0 0 10px;
+}
+ul.rig li h3 {
+    margin: 0 0 5px;
+}
+ul.rig li p {
+    font-size: .9em;
+    line-height: 1.5em;
+    color: #999;
+}
+/* class for 2 columns */
+ul.rig.columns-2 li {
+    width: 47.5%; /* this value + 2.5 should = 50% */
+}
+/* class for 3 columns */
+ul.rig.columns-3 li {
+    width: 30.83%; /* this value + 2.5 should = 33% */
+}
+/* class for 4 columns */
+ul.rig.columns-4 li {
+    width: 22.5%; /* this value + 2.5 should = 25% */
+}
+ 
+@media (max-width: 480px) {
+    ul.grid-nav li {
+        display: block;
+        margin: 0 0 5px;
+    }
+    ul.grid-nav li a {
+        display: block;
+    }
+    ul.rig {
+        margin-left: 0;
+    }
+    ul.rig li {
+        width: 100% !important; /* over-ride all li styles */
+        margin: 0 0 20px;
+    }
+}
+
+.button {
+    border-radius: 4px;
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 25px 52px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    font-weight: 300;
+    font-family: 'Open Sans' ;
+    margin: 4px 2px;
+    cursor: pointer;
+    width: 80px;
+}
+
+.wrapper {
+    text-align: center;
+}
+
+.button2 {background-color: #008CBA;} /* Blue */
+.button3 {background-color: #f44336;} /* Red */
+
+</style>
+</head>
+
+<meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="https://imadhsissou.me/public/stylesheets/bs.css">
+    <link rel="stylesheet" href="https://imadhsissou.me/public/stylesheets/styles.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
+    <link rel="icon" type="image/x-icon"  href="https://imadhsissou.me/favicon.png" />
+    <title>Projects | Imad Hsissou</title>
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+
+
+<body style="background-color : #222A30;" >
+
+<div class="wrapper">
+        <section>
+            <div id="title">
+  <h1>
+    <a id="sitename" href="https://imadhsissou.me/projects">Projects</a>
+  </h1>
+  
+  <p>this section is dedicated to describe some OpenSource projects I've been working on.</p>
+  <p>feel free to contribute.</p>
+
+<ul class="rig columns-2">
+    <li>
+        <a href="https://imadhsissou.me/Iot/esp8266-robot.html"> <img src="images/rover.jpg"/> </a>
+        <h3>Web Controlled Rover Robot</h3>
+    </li>
+</ul>
+
+</body>
+</html>
