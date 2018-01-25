@@ -1,5 +1,5 @@
 baseurl: "" # The subpath of your site. Use "" if you're hosting a blog at the root level.
-url: "https://imadhsissou.me" # the base hostname & protocol for your site.
+url: "https://imadhsissou.github.io" # the base hostname & protocol for your site.
 title: "Imad Hsissou"
 
 paginate: 10 #articles per page
@@ -7,7 +7,7 @@ paginate_path: /blog/page:num #makes pagination working
 
 #contacts
 git: "https://github.com/7bisso"  #your github url here.
-stackoverflow: "https://www.linkedin.com/in/imad-hsissou-579394127" #Add your stackoverflow url here.
+stackoverflow: "https://www.linkedin.com/in/imadhsissou/" #Add your stackoverflow url here.
 twitter: "https://twitter.com/hsissouimad"  #Add your twitter url here.
 facebook: "https://www.facebook.com/imad.hsissou"
 
