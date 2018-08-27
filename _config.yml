@@ -47,3 +47,5 @@ defaults:
       type: "posts"
     values:
       layout: "post"
+      
+remote_theme: mmistakes/so-simple-theme
