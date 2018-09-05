@@ -3,18 +3,18 @@
 - title: Home
   url: /
 - title: Posts
-  url: /_posts/
+  url: /posts/
 # - title: Categories
 #   url: /categories/
 - title: Projects
-  url: /_projects/
+  url: /projects/
 - title: About
-  url: /_about/about.md
+  url: /about/
 # - title: Tags
 #   url: /tags/
 # - title: Recipes
 #   url: /recipes/
 - title: Search
-  url: /_search/
+  url: /search/
 # - title: External Page
 #   url: https://the-page.com/you-want-to-link-to.html
