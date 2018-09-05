@@ -87,14 +87,14 @@ defaults:
 
 # Site Author
 author:
-  name:
-  picture:
-  email:
+  name: Imad Hsissou
+  picture: /me.jpg
+  email: imad.hsissou@outlook.com
   twitter:
   links:
-    - title:
-      url:
-      icon:
+    - title: LinkedIn
+      url: https://www.linkedin.com/in/imadhsissou/
+      icon: fas fa-linkedin-square
 
 # Footer Links
 footer_links:
