@@ -98,6 +98,6 @@ author:
 
 # Footer Links
 footer_links:
-  - title: Feed
-    url: atom.xml
-    icon: fas fa-rss-square
+  - title: Github
+    url: https://github.com/imadhsissou
+    icon: fas fa-github-square
