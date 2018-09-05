@@ -8,8 +8,8 @@
 #   url: /categories/
 - title: Projects
   url: /projects/
-# - title: About
-#  url: /about.md
+- title: About
+  url: /about.md
 # - title: Tags
 #   url: /tags/
 # - title: Recipes
