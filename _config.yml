@@ -98,6 +98,6 @@ author:
 
 # Footer Links
 footer_links:
-  - title: GitHub
-    url: https://github.com/imadhsissou
-    icon: fab fa-github-square
+  - title: LinkedIn
+    url: https://www.linkedin.com/in/imadhsissou/
+    icon: fas fa-linkedin-square
