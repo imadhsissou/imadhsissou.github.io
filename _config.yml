@@ -101,3 +101,7 @@ footer_links:
   - title: LinkedIn
     url: https://www.linkedin.com/in/imadhsissou/
     icon: fas fa-linkedin-square
+
+  - title: GitHub
+    url: https://github.com/imadhsissou
+    icon: fas fa-github-square
