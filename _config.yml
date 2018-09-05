@@ -92,22 +92,14 @@ author:
   email: imad.hsissou@outlook.com
   twitter:
   links:
-    - title: LinkedIn
-      url: https://www.linkedin.com/in/imadhsissou/
-      icon: fab fa-linkedin-in
-     
-    - title: GitHub
-    url: https://github.com/imadhsissou
-    icon: fab fa-github
+    - title:
+      url:
+      icon:
 
 # Footer Links
 footer_links:
   - title: LinkedIn
     url: https://www.linkedin.com/in/imadhsissou/
     icon: fab fa-linkedin-in
-
-  - title: GitHub
-    url: https://github.com/imadhsissou
-    icon: fab fa-github
 
 copyright: "© 2018 Imad Hsissou. Personal Blog."
