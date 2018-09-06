@@ -74,6 +74,12 @@ plugins:
   - jekyll-sitemap
   - jekyll-feed
   - jekyll-paginate
+  
+# Collections
+collections:
+  projects:
+    output: true
+    permalink: /:collection/:path/
 
 # Front Matter Defaults
 defaults:
@@ -84,13 +90,19 @@ defaults:
     values:
       layout: post
       share: true
+  # Projects defaults
+  - scope:
+      path: "_projects"
+      type: projects
+    values:
+      layout: post
+      share: true
 
 # Site Author
 author:
   name: Imad Hsissou
   picture: /me.jpg
   email: imad.hsissou@outlook.com
-  twitter:
   links:
     - title:
       url:
