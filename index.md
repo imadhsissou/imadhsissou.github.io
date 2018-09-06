@@ -1,5 +1,7 @@
 ---
-layout: page
+layout: home
+excerpt: "A simple and clean responsive blog."
+show_excerpts: true
+paginate: true
+entries_layout: list
 ---
-
-Write some words here to welcome visitors, or put about stuff here
