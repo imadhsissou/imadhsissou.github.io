@@ -2,6 +2,6 @@
 layout: home
 excerpt: "A simple and clean responsive blog."
 show_excerpts: true
-pagination: true
+paginate: true
 entries_layout: list
 ---
