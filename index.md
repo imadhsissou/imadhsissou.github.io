@@ -1,6 +1,6 @@
 ---
 layout: home
-excerpt: "Thanks for stopping by."
+limit: 10
 show_excerpts: true
 entries_layout: list
 ---
