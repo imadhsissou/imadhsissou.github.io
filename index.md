@@ -1,6 +1,6 @@
 ---
 layout: home
-excerpt: "A simple and clean responsive blog."
+excerpt: "Thanks for stopping by."
 show_excerpts: true
 paginate: true
 entries_layout: list
