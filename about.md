@@ -2,6 +2,6 @@
 layout: page
 ---
 
-## ~$ whoami
+## about
 
 Undergrad, IT enthusiast, Autodidact and a Lifelong learner.
