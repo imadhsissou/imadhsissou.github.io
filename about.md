@@ -2,6 +2,6 @@
 layout: page
 ---
 
-## about
+## About
 
 Undergrad, IT enthusiast, Autodidact and a Lifelong learner.
