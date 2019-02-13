@@ -17,7 +17,7 @@
 remote_theme: mmistakes/so-simple-theme
 locale: en-US
 title: "Imad Hsissou"
-description: "Thank you for stopping by | SITE UNDER CONSTRUCTION |"
+description: "Thank you for stopping by"
 baseurl:  # the subpath of your site, e.g. "/blog"
 url: "https://imadhsissou.github.io" # e.g. "https://mmistakes.github.io"
 logo: /me.jpg
@@ -114,4 +114,9 @@ footer_links:
     url: https://www.linkedin.com/in/imadhsissou/
     icon: fab fa-linkedin-in
 
-copyright: "© 2018 Imad Hsissou. Personal Blog."
+footer_links:
+  - title: Github
+    url: https://www.github.com/imadhsissou/
+    icon: fab fa-github
+
+copyright: "© 2019 Imad Hsissou. Personal Blog."
