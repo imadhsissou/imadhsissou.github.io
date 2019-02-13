@@ -110,11 +110,11 @@ author:
 
 # Footer Links
 footer_links:
+
   - title: LinkedIn
     url: https://www.linkedin.com/in/imadhsissou/
     icon: fab fa-linkedin-in
 
-footer_links:
   - title: Github
     url: https://www.github.com/imadhsissou/
     icon: fab fa-github
