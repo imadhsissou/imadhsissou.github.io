@@ -97,13 +97,6 @@ defaults:
     values:
       layout: post
       share: true
-  # Reads defaults
-  - scope:
-      path: "_reads"
-      type: reads
-    values:
-      layout: post
-      share: true
 
 # Site Author
 author:
@@ -111,19 +104,32 @@ author:
   picture: /me.jpg
   email: imad.hsissou@outlook.com
   links:
-    - title:
-      url:
-      icon:
+
+    - title: LinkedIn
+      url: https://www.linkedin.com/in/imadhsissou/
+      icon: fa fa-linkedin-square
+
+    - title: Github
+      url: https://www.github.com/imadhsissou/
+      icon: fa fa-github-square
+
+    - title: Facebook
+      url: https://www.facebook.com/imad.hsissou
+      icon: fab fa-facebook-square
 
 # Footer Links
 footer_links:
 
   - title: LinkedIn
     url: https://www.linkedin.com/in/imadhsissou/
-    icon: fab fa-linkedin-in
+    icon: fa fa-linkedin-square
 
   - title: Github
     url: https://www.github.com/imadhsissou/
-    icon: fab fa-github
+    icon: fa fa-github-square
+
+  - title: Facebook
+    url: https://www.facebook.com/imad.hsissou
+    icon: fab fa-facebook-square
 
 copyright: "© 2019 Imad Hsissou. Personal Blog."
