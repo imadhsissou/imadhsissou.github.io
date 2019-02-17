@@ -1,7 +1,7 @@
 ---
 title: Reads
-layout: collection
+layout: posts
 permalink: /reads/
-collection: reads
+show_excerpts: true
 entries_layout: list
 ---
