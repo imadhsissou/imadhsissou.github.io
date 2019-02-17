@@ -22,8 +22,8 @@ baseurl:  # the subpath of your site, e.g. "/blog"
 url: "https://imadhsissou.github.io" # e.g. "https://mmistakes.github.io"
 logo: /me.jpg
 date_format: "%B %-d, %Y"
-read_time: # reading time estimates, e.g. true
-words_per_minute: # 200
+read_time: true # reading time estimates, e.g. true
+words_per_minute: 200
 mathjax: # MathJax equations, e.g. true
 google_fonts:
   - name: "Source Sans Pro"

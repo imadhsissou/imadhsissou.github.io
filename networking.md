@@ -1,7 +1,7 @@
 ---
 title: Networking
 layout: category
-permalink: /categories/networking/
+permalink: /networking/
 taxonomy: Networking
 ---
 
