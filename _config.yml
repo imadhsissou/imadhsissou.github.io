@@ -99,7 +99,7 @@ defaults:
       share: true
   # Reads defaults
   - scope:
-      path: "_reads"
+      path: "reads"
       type: reads
     values:
       layout: post
