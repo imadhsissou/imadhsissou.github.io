@@ -1,6 +1,6 @@
 ---
 title: "Post 001 : Hi !"
-sub_title: "The common elements"
+sub_title: "Sample Post"
 categories:
   - Networking
 elements:
