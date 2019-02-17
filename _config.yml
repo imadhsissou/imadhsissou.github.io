@@ -107,11 +107,11 @@ author:
 
     - title: LinkedIn
       url: https://www.linkedin.com/in/imadhsissou/
-      icon: fa fa-linkedin-square
+      icon: fab fa-linkedin-square
 
     - title: Github
       url: https://www.github.com/imadhsissou/
-      icon: fa fa-github-square
+      icon: fab fa-github-square
 
     - title: Facebook
       url: https://www.facebook.com/imad.hsissou
@@ -122,11 +122,11 @@ footer_links:
 
   - title: LinkedIn
     url: https://www.linkedin.com/in/imadhsissou/
-    icon: fa fa-linkedin-square
+    icon: fab fa-linkedin-square
 
   - title: Github
     url: https://www.github.com/imadhsissou/
-    icon: fa fa-github-square
+    icon: fab fa-github-square
 
   - title: Facebook
     url: https://www.facebook.com/imad.hsissou
