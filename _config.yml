@@ -17,7 +17,7 @@
 remote_theme: mmistakes/so-simple-theme
 locale: en-US
 title: "Imad Hsissou"
-description: "Thank you for stopping by"
+description: "Thank you for stopping by | Website under development 💻|"
 baseurl:  # the subpath of your site, e.g. "/blog"
 url: "https://imadhsissou.github.io" # e.g. "https://mmistakes.github.io"
 logo: /me.jpg
