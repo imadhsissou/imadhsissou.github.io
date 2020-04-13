@@ -3,17 +3,17 @@
 - title: Home
   url: /
 # Posts
-- title: Posts
+- title: Blog
   url: /posts/
 # Projects
-- title: Projects
-  url: /projects/
+# - title: Projects
+#   url: /projects/
 # Categories
-- title: Categories
+- title: Tags
   url: /categories/
 # About
-- title: About
-  url: /about/
+# - title: About
+#   url: /about/
 # - title: Tags
 #   url: /tags/
 # - title: Recipes
