@@ -2,6 +2,4 @@
 layout: page
 ---
 
-## About
-
-🎓 Network Engineer ✨ Stargazer ✒ Calligraphy scholar 📖 Lifelong learner
+Making use of my own portion of the Internet.
