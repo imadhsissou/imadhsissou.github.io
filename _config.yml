@@ -16,7 +16,7 @@
 # theme: jekyll-theme-so-simple
 remote_theme: mmistakes/so-simple-theme
 locale: en-US
-title: "Imad Hsissou"
+title: "Imad's Internet Corner"
 description: "Thank you for stopping by | Website under development 💻|"
 baseurl:  # the subpath of your site, e.g. "/blog"
 url: "https://imadhsissou.github.io" # e.g. "https://mmistakes.github.io"
@@ -132,4 +132,4 @@ footer_links:
     url: https://www.facebook.com/imad.hsissou
     icon: fab fa-facebook-square
 
-copyright: "© 2020 Imad Hsissou. Personal Blog."
+copyright: "©2020 Imad Hsissou. Personal Blog."
