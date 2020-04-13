@@ -1,5 +1,5 @@
 ---
-title: Posts
+title: Blog
 layout: posts
 permalink: /posts/
 show_excerpts: true
