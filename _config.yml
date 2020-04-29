@@ -16,7 +16,7 @@
 # theme: jekyll-theme-so-simple
 remote_theme: mmistakes/so-simple-theme
 locale: en-US
-title: "Imad's Internet Corner"
+title: "I²C - Imad's Internet Corner"
 description: "Welcome to my own corner on the Internet."
 baseurl:  # the subpath of your site, e.g. "/blog"
 url: "https://imadhsissou.github.io" # e.g. "https://mmistakes.github.io"
