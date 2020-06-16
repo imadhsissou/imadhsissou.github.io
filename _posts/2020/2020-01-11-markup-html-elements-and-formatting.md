@@ -9,9 +9,9 @@ elements:
   - content
 ---
 
-> Welcome to Imad's Internet Corner !
-> Here's a random Python snippet, it's called "Let's make a giant string!"
-> See you soon ! 
+> Welcome to Imad's Internet Corner !  
+> Here's a random Python snippet, it's called "Let's make a giant string!"  
+> See you soon !  
 
 ```python
 def add_string_with_plus(iters):
