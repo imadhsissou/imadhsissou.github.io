@@ -13,7 +13,8 @@ elements:
 > Here's a random Python snippet, it's called "Let's make a giant string!"  
 > See you soon !  
 
-```python
+{% highlight python %}
+```
 def add_string_with_plus(iters):
     s = ""
     for i in range(iters):
@@ -42,3 +43,4 @@ def convert_list_to_string(l, iters):
     s = "".join(l)
     assert len(s) == 3*iters
 ```
+{% endhighlight %}
