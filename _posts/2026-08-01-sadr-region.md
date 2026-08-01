@@ -12,5 +12,5 @@ Sadr region is just impressive, endless nebulae of all types!
 It feels like doing cartography so you can return to each and every object with different setups and techniques !  
 This is a super-wide shot using my usual rig, I'm planning to add more data to this, especially broadband, so that little NGC 6914 reflection nebula can pop-up.  
 
-> Somewhere, something incredible is waiting to be known. — Carl Sagan
+> Somewhere, something incredible is waiting to be known. — Carl Sagan  
 > Clear skies. 🔭✨
