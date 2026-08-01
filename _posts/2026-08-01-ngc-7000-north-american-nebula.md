@@ -8,7 +8,7 @@ exposure: 45 × 120s @gain 200, SV220 Ha/OIII 7nm
 location: Rabat · Bortle 7
 ---
 
-Revisited processing using Siril, VeraLux, RC Astro plugins.  
+I started learning new processing techniques using Siril, VeraLux, RC Astro plugins.  
 I experimented with Narrowband Normalization script to create the HOO pallet, combined with VeraLux HMS for pure vector stretching, which inherently preserves the true "physical meaningfulness" of the data.  
 
 I was mostly doing EAA with quick edits on Lightroom, but now it seems that a whole new world of processing is waiting to be discovered.
