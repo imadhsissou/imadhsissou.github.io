@@ -1,6 +1,6 @@
 ---
 title: Sadr Region - Sea of Hydrogen Alpha
-date: 2026-08-01 22:30:00 +0100
+date: 2026-08-01T02:52
 image: /assets/photos/Sadr_Region.jpg
 excerpt: |-
   This Sadr region is just impressive.. endless nebulae of all types!
