@@ -5,7 +5,7 @@ image: /assets/photos/NGC 7000_RC_ASTRO_SMALL.jpg
 excerpt: NGC 7000 - The North American Nebula...
 gear: Rokinon 135mm · SW SA GTi · ASI585MC AIR
 exposure: 45 × 120s @gain 200, SV220 Ha/OIII 7nm
-location: Rabat · Bortle 7
+location: Rabat, Morocco · Bortle 7
 ---
 
 I started learning new processing techniques using Siril, VeraLux, RC Astro plugins.  
