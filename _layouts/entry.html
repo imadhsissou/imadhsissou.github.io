@@ -1,0 +1,39 @@
+---
+layout: default
+---
+<article class="entry">
+
+  {% if page.image %}
+  <figure class="entry-figure">
+    <img class="entry-img" src="{{ page.image | relative_url }}" alt="{{ page.title | escape }}">
+  </figure>
+  {% endif %}
+
+  <header class="entry-head">
+    <h1 class="entry-title">{{ page.title }}</h1>
+    <p class="entry-meta">{{ page.date | date: site.date_format }}</p>
+  </header>
+
+  <div class="entry-body">
+    {{ content }}
+  </div>
+
+  {% if page.gear or page.exposure or page.location %}
+  <dl class="entry-details">
+    {% if page.gear %}<dt>Gear</dt><dd>{{ page.gear }}</dd>{% endif %}
+    {% if page.exposure %}<dt>Exposure</dt><dd>{{ page.exposure }}</dd>{% endif %}
+    {% if page.location %}<dt>Location</dt><dd>{{ page.location }}</dd>{% endif %}
+  </dl>
+  {% endif %}
+
+  <nav class="entry-nav">
+    {% if page.next %}
+      <a class="nav-prev" href="{{ page.next.url | relative_url }}">← Newer<span>{{ page.next.title }}</span></a>
+    {% else %}<span></span>{% endif %}
+    <a class="nav-home" href="{{ '/' | relative_url }}">All photos</a>
+    {% if page.previous %}
+      <a class="nav-next" href="{{ page.previous.url | relative_url }}">Older →<span>{{ page.previous.title }}</span></a>
+    {% else %}<span></span>{% endif %}
+  </nav>
+
+</article>

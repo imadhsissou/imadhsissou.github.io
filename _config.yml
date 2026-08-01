@@ -1,135 +1,42 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely edit after that. If you find
-# yourself editing this file very often, consider using Jekyll's data files
-# feature for the data you need to update frequently.
-#
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
+# ── Site ─────────────────────────────────────────────────────────────
+title: "Imad's Astrophotography Journal"
+description: "A log of my astrophotography journey — one photo at a time."
+url: "https://imadhsissou.github.io"
+baseurl: ""
+lang: en-US
 
-# Site settings
-# These are used to personalize your new site. If you look in the HTML files,
-# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
-# You can create any custom variable you would like, and they will be accessible
-# in the templates via {{ site.myvariable }}.
-# theme: jekyll-theme-so-simple
-remote_theme: mmistakes/so-simple-theme
-locale: en-US
-title: "I²C - Imad's Internet Corner"
-description: "Welcome to my own corner on the Internet."
-baseurl:  # the subpath of your site, e.g. "/blog"
-url: "https://imadhsissou.github.io" # e.g. "https://mmistakes.github.io"
-# logo: /me.jpg
-date_format: "%B %-d, %Y"
-read_time: true # reading time estimates, e.g. true
-words_per_minute: 200
-mathjax: # MathJax equations, e.g. true
-google_fonts:
-  - name: "Source Sans Pro"
-    weights: "400,400i,700,700i"
-  - name: "Roboto"
-    weights: "400,400i,700,700i"
-google_analytics: # Google Analytics id, e.g. "UA-NNNNNNNN-N"
-disqus:
-  shortname: # Disqus shortname, e.g. "my_disqus_shortname"
-twitter:
-  username: # site's Twitter username, e.g. "mmistakes"
-
-# Liquid
-liquid:
-  error_mode: strict
-
-# Build settings
-permalink: /:categories/:title/
-markdown: kramdown
-feed:
-  path: atom.xml
-
-# Pagination - https://jekyllrb.com/docs/pagination/
-# paginate: 10
-# paginate_path: /page:num/
-
-# Search
-search_full_content: true # can have performance implications for large sites
-
-# Taxonomy pages
-category_archive_path: "/categories/#"
-# tag_archive_path: "/tags/#"
-
-# Exclude from processing.
-# The following items will not be processed, by default. Create a custom list
-# to override the default setting.
-# exclude:
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
-
-plugins:
-  - jekyll-seo-tag
-  - jekyll-sitemap
-  - jekyll-feed
-  - jekyll-paginate
-
-# Collections
-collections:
-  projects:
-    output: true
-    permalink: /:collection/:path/
-
-# Front Matter Defaults
-defaults:
-  # Posts defaults
-  - scope:
-      path: "_posts"
-      type: posts
-    values:
-      layout: post
-      share: true
-  # Projects defaults
-  - scope:
-      path: "_projects"
-      type: projects
-    values:
-      layout: post
-      share: true
-
-# Site Author
 author:
-  name: Imad Hsissou
-  picture: /me.jpg
-  email: imad.hsissou@outlook.com
-  links:
+  name: "Imad Hsissou"
+  bio: "Amateur astrophotographer chasing photons under dark skies."
 
-    - title: LinkedIn
-      url: https://www.linkedin.com/in/imadhsissou/
-      icon: fab fa-linkedin
-
-    - title: Github
-      url: https://www.github.com/imadhsissou/
-      icon: fab fa-github-square
-
-    - title: Facebook
-      url: https://www.facebook.com/imad.hsissou
-      icon: fab fa-facebook-square
-
-# Footer Links
-footer_links:
-
+# Shown in the footer. Add/remove freely.
+social:
+  - title: GitHub
+    url: https://github.com/imadhsissou
   - title: LinkedIn
     url: https://www.linkedin.com/in/imadhsissou/
-    icon: fab fa-linkedin
 
-  - title: Github
-    url: https://www.github.com/imadhsissou/
-    icon: fab fa-github-square
+date_format: "%B %-d, %Y"
 
-  - title: Facebook
-    url: https://www.facebook.com/imad.hsissou
-    icon: fab fa-facebook-square
+# ── Build ────────────────────────────────────────────────────────────
+markdown: kramdown
+permalink: /log/:title/
 
-copyright: "©2020 Imad Hsissou. Personal Blog."
+# Every post is an astrophoto log entry, rendered with the entry layout.
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: entry
+
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
+
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - vendor

@@ -1,0 +1,42 @@
+# ── Sveltia CMS configuration ────────────────────────────────────────
+# Docs: https://github.com/sveltia/sveltia-cms
+
+backend:
+  name: github
+  repo: imadhsissou/imadhsissou.github.io   # owner/repo
+  branch: master
+  # base_url is the URL of your OAuth relay (see README → "One-time setup").
+  # Leave commented until you deploy the free Cloudflare Worker, then set it:
+  # base_url: https://YOUR-WORKER.workers.dev
+
+# When editing locally with the proxy server, uncomment:
+# local_backend: true
+
+# Where uploaded photos are stored (path in the repo) …
+media_folder: "assets/photos"
+# … and the URL they are referenced by on the site.
+public_folder: "/assets/photos"
+
+# Show a "publish workflow" so drafts don't go live until you approve them.
+# publish_mode: editorial_workflow
+
+collections:
+  - name: log
+    label: "Astrophoto Log"
+    label_singular: "Entry"
+    description: "One photo per entry. Fill it in like a social post."
+    folder: "_posts"
+    create: true
+    # Filename becomes YYYY-MM-DD-your-title.md
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    preview_path: "log/{{slug}}"
+    sortable_fields: ["date", "title"]
+    fields:
+      - { name: title, label: "Title", widget: string, hint: "e.g. The Orion Nebula (M42)" }
+      - { name: date, label: "Date", widget: datetime }
+      - { name: image, label: "Photo", widget: image, hint: "Drag & drop your astrophoto" }
+      - { name: excerpt, label: "Short caption", widget: text, required: false, hint: "One line shown on the homepage" }
+      - { name: gear, label: "Gear / Setup", widget: string, required: false }
+      - { name: exposure, label: "Exposure", widget: string, required: false }
+      - { name: location, label: "Location / Sky", widget: string, required: false }
+      - { name: body, label: "Notes", widget: markdown, required: false }

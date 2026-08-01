@@ -1,0 +1,39 @@
+---
+layout: default
+title: Home
+---
+{% assign photos = site.posts %}
+
+{% if photos.size > 0 %}
+  {% assign latest = photos | first %}
+  <section class="hero">
+    <a class="hero-link" href="{{ latest.url | relative_url }}">
+      <img class="hero-img" src="{{ latest.image | relative_url }}" alt="{{ latest.title | escape }}">
+    </a>
+    <div class="hero-caption">
+      <p class="hero-eyebrow">Latest capture · {{ latest.date | date: site.date_format }}</p>
+      <h1 class="hero-title"><a href="{{ latest.url | relative_url }}">{{ latest.title }}</a></h1>
+      {% if latest.excerpt %}<p class="hero-excerpt">{{ latest.excerpt | strip_html | truncate: 220 }}</p>{% endif %}
+    </div>
+  </section>
+
+  <section class="gallery">
+    <h2 class="gallery-heading">The Log</h2>
+    <div class="gallery-grid">
+      {% for photo in photos %}
+      <a class="card" href="{{ photo.url | relative_url }}">
+        <img class="card-img" loading="lazy" src="{{ photo.image | relative_url }}" alt="{{ photo.title | escape }}">
+        <span class="card-overlay">
+          <span class="card-title">{{ photo.title }}</span>
+          <span class="card-date">{{ photo.date | date: site.date_format }}</span>
+        </span>
+      </a>
+      {% endfor %}
+    </div>
+  </section>
+{% else %}
+  <section class="empty">
+    <h1>Nothing captured yet.</h1>
+    <p>Add your first astrophoto through <a href="{{ '/admin/' | relative_url }}">the editor</a> and it will appear here.</p>
+  </section>
+{% endif %}
