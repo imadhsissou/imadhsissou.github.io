@@ -21,6 +21,9 @@ date_format: "%B %-d, %Y"
 # ── Build ────────────────────────────────────────────────────────────
 markdown: kramdown
 permalink: /log/:title/
+# Include entries whose timestamp is slightly ahead of the build clock
+# (the CMS stamps "now", which time zones can push a few minutes into the future).
+future: true
 
 # Every post is an astrophoto log entry, rendered with the entry layout.
 defaults:
