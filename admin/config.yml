@@ -5,9 +5,8 @@ backend:
   name: github
   repo: imadhsissou/imadhsissou.github.io   # owner/repo
   branch: master
-  # base_url is the URL of your OAuth relay (see README → "One-time setup").
-  # Leave commented until you deploy the free Cloudflare Worker, then set it:
-  # base_url: https://YOUR-WORKER.workers.dev
+  # OAuth relay (Cloudflare Worker: sveltia-cms-auth).
+  base_url: https://sveltia-cms-auth.geekatom3.workers.dev
 
 # When editing locally with the proxy server, uncomment:
 # local_backend: true
