@@ -5,7 +5,7 @@ image: /assets/photos/Sadr_Region.jpg
 excerpt: Sadr region is just impressive, endless nebulae of all types...
 gear: Rokinon 135mm · SW SA GTi · ASI585MC AIR
 exposure: 90 × 120s @gain 200, SV220 Ha/OIII 7nm
-location: Backyard · Bortle 7
+location: Rabat, Morocco · Bortle 7
 ---
 
 Sadr region is just impressive, endless nebulae of all types!  
